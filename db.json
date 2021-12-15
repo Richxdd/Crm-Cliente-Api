@@ -1,0 +1,36 @@
+{
+  "clientes": [
+    {
+      "nombre": "Patricio Estrella",
+      "empresa": "Instagram",
+      "email": "patricio@gmail.com",
+      "telefono": "955841271",
+      "notas": "editando registro",
+      "id": 1
+    },
+    {
+      "nombre": "Juan Carlos",
+      "empresa": "Facebook",
+      "email": "juancarlos@gmail.com",
+      "telefono": "987678987",
+      "notas": "Fundaador de facebbok",
+      "id": 2
+    },
+    {
+      "nombre": "Jhoana Zamora",
+      "empresa": "Pfarsh",
+      "email": "jhoanazamora2@gmail.com",
+      "telefono": "936016053",
+      "notas": "es una mala novia",
+      "id": 3
+    },
+    {
+      "nombre": "Ricardo Manuel",
+      "empresa": "Netflix",
+      "email": "ricardosv46@gmail.com",
+      "telefono": "937815062",
+      "notas": "Fundador de Netflix",
+      "id": 4
+    }
+  ]
+}
