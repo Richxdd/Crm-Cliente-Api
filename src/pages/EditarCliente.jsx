@@ -14,7 +14,7 @@ const EditarCliente = () => {
         
         const ObtenerClienteAPI = async()=>{
         try {
-            const url = `http://localhost:4000/clientes/${id}`
+            const url = `https://my-json-server.typicode.com/Richxdd/Crm-Cliente-Api/clientes/${id}`
             const respuesta = await fetch (url)
             const resultado = await respuesta.json()
             setCliente(resultado);

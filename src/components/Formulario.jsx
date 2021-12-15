@@ -22,7 +22,7 @@ const Formulario = ({cliente,cargando}) => {
             let respuesta
             if(cliente.id){
                 //Editar Registro
-                const url = `http://localhost:4000/clientes/${cliente.id}`
+                const url = `https://my-json-server.typicode.com/Richxdd/Crm-Cliente-Api/clientes/${cliente.id}`
                 respuesta = await fetch(url,{
                 method: 'PUT',
                 body: JSON.stringify(valores),
@@ -33,7 +33,7 @@ const Formulario = ({cliente,cargando}) => {
                 })
             }else{
                 //Nuevo Registro
-                const url = 'http://localhost:4000/clientes'
+                const url = 'https://my-json-server.typicode.com/Richxdd/Crm-Cliente-Api/clientes'
                 respuesta = await fetch(url,{
                 method: 'POST',
                 body: JSON.stringify(valores),
